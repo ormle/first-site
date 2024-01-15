@@ -12,12 +12,9 @@
 body {
     background-color: rgb(32, 27, 118);
     font-family: "FenordItalic";
-    text-align: left;
-    display: flex-start;
-    align-items: left;
+    text-wrap: wrap;
     justify-content: left;
     height: 90vh;
-    justify-content: center;
 }
   h1 {
     font-size: 72px;
