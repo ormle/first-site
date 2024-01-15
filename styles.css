@@ -12,10 +12,10 @@
 body {
     background-color: rgb(32, 27, 118);
     font-family: "FenordItalic";
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: left;
+    display: flex-start;
+    align-items: left;
+    justify-content: left;
     height: 90vh;
     justify-content: center;
 }
@@ -27,7 +27,7 @@ p{
 font-size: 28px;
 color: rgb(255, 255, 255);
 }
-  button {
+  /*button {
       color: white;
       font-size: 125%;
       border-radius: 4px;
@@ -37,11 +37,11 @@ color: rgb(255, 255, 255);
       padding: 10px;
       outline: none;
       cursor: pointer;
-}
-  button:hover {
+}*/
+/*  button:hover {
     background: rgb(66, 184, 221);
     padding: 12px;
-}
+}*/
 footer {
   text-align: left;
   justify-content: flex-end;;
