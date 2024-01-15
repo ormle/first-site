@@ -43,7 +43,9 @@ color: rgb(255, 255, 255);
     padding: 12px;
 }
 footer {
+  display: flex;
   text-align: left;
+  justify-content: flex-start;
   padding: 15px;
   background-color: silver;
   color: rgb(32, 27, 118);
