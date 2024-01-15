@@ -12,6 +12,7 @@
 body {
     background-color: rgb(32, 27, 118);
     font-family: "FenordItalic";
+    color: rgb(255, 255, 255);
     text-align: center;
     display: flex;
     align-items: center;
