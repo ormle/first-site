@@ -1,35 +1,9 @@
 /*Fenord Font*/
 
 @font-face {
-  font-family: 'fenord_freeitalic';
-  src: url('fenord_italic-webfont.woff2') format('woff2'),
-       url('fenord_italic-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-@font-face {
-  font-family: 'fenord_freeregular';
-  src: url('fenord_regular-webfont.woff2') format('woff2'),
-       url('fenord_regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-@font-face {
-  font-family: 'fenord_freeregular';
-  src: url('fenord_regular-webfont.woff2') format('woff2'),
-       url('fenord_regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-@font-face {
-  font-family: 'fenord_freeitalic';
-  src: url('fenord_italic-webfont.woff2') format('woff2'),
-       url('fenord_italic-webfont.woff') format('woff');
+  font-family: 'FenordItalic';
+  src: local("fenord-italic"),
+       url(fenord-italic.ttf);
   font-weight: normal;
   font-style: normal;
 
@@ -37,7 +11,7 @@
 
 body {
     background-color: rgb(32, 27, 118);
-    font-family: "fenord_freeregular";
+    font-family: "FenordItalic";
     text-align: center;
     display: flex;
     align-items: center;
