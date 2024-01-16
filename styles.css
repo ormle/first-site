@@ -17,7 +17,13 @@ h1#introtext {
   color: silver;
   padding: 50px 80px 90px 150px;
 }
-
+div#bean {
+  width: 800px;
+  height: 250px;
+  background-color: silver;
+  text-align: center;
+  border-radius: 250px;
+}
 /*Footer*/
 footer {
   align-content: end;
