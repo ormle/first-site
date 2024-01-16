@@ -12,12 +12,10 @@ body {
     background-color: rgb(32, 27, 118);
     font-family: "FenordItalic";
 }
-#introtext {
+h1#introtext {
   font-size: 60px;
-  color: silver;    
-  text-wrap: balance;
-  justify-content: left;
-  padding: 50px 80px 90px 20px;
+  color: silver;
+  padding: 50px 80px 90px 150px;
 }
 
 /*Footer*/
