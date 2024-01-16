@@ -23,15 +23,15 @@ div#bean {
   background-color: silver;
   text-align: center;
   border-radius: 250px;
-  margin: 100px 100px 20px 100px;
+  margin: 60px 100px 20px 100px;
 }
 div#frame {
   display: flex;
-  width: 800px;
-  height: 500px;
+  width: 530px;
+  height: 370px;
   background-color: silver;
   justify-content: center;
-  margin: 5px 100px 50px 100px;
+  margin: 15px 0px 50px 240px;
 }
 img#Romel {
   padding: 20px 20px;
