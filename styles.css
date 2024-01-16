@@ -23,7 +23,7 @@ div#bean {
   background-color: silver;
   text-align: center;
   border-radius: 250px;
-  margin: 100px;
+  margin: 100px 100px 20px 100px;
 }
 div#frame {
   display: flex;
@@ -31,8 +31,11 @@ div#frame {
   height: 500px;
   background-color: silver;
   justify-content: center;
-  margin: 20px;
+  margin: 5px 100px 50px 100px;
 }
+img#Romel {
+  padding: 20px 20px;
+} 
 /*Footer*/
 footer {
   align-content: end;
