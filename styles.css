@@ -14,7 +14,7 @@ body {
 }
 h1#introtext {
   font-size: 60px;
-  color: silver;
+  color: rgb(32, 27, 118);
   padding: 50px 80px 90px 150px;
 }
 div#bean {
