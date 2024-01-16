@@ -10,35 +10,24 @@
 
 body {
     background-color: rgb(32, 27, 118);
-    color: silver;
     font-family: "FenordItalic";
-    text-wrap: balance;
-    justify-content: left;
-    padding-left: 50px 80px 90px 20px;
-    /*height: 90vh;*/
 }
-  /*button {
-      color: white;
-      font-size: 125%;
-      border-radius: 4px;
-      border: none;
-      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-      background: rgb(143, 239, 165);
-      padding: 10px;
-      outline: none;
-      cursor: pointer;
-}*/
-/*  button:hover {
-    background: rgb(66, 184, 221);
-    padding: 12px;
-}*/
+#introduction {
+  font-size: 40px;
+  color: silver;    
+  text-wrap: balance;
+  justify-content: left;
+  padding-left: 50px 80px 90px 20px;
+}
+
+/*Footer*/
 footer {
   align-content: end;
   justify-content: flex-end;
   background-color: silver;
 }
-#footertext{
-  font-size: 40px;
+#footertext {
+  font-size: 10px;
   text-align: left;
   padding: 15px;
   color: rgb(32, 27, 118);
