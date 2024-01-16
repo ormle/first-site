@@ -16,6 +16,7 @@ h1#introtext {
   font-size: 60px;
   color: rgb(32, 27, 118);
   padding: 25px;
+  margin: 0px;
 }
 div#bean {
   display: flex;
