@@ -11,6 +11,8 @@
 body {
     background-color: rgb(32, 27, 118);
     font-family: "FenordItalic";
+    max-width: 100%;
+    overflow-x: hidden;
 }
 h1#introtext {
   font-size: 60px;
