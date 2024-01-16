@@ -15,7 +15,6 @@ body {
 h1#introtext {
   font-size: 60px;
   color: rgb(32, 27, 118);
-  padding: 50px 80px 90px 150px;
 }
 div#bean {
   width: 800px;
@@ -23,6 +22,14 @@ div#bean {
   background-color: silver;
   text-align: center;
   border-radius: 250px;
+  margin: 100px;
+}
+div#frame {
+  width: 800px;
+  height: 500px;
+  background-color: silver;
+  justify-content: center;
+  margin: 20px;
 }
 /*Footer*/
 footer {
