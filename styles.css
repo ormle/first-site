@@ -12,9 +12,10 @@
 body {
     background-color: rgb(32, 27, 118);
     font-family: "FenordItalic";
-    text-wrap: wrap;
+    text-wrap: balance;
     justify-content: left;
-    height: 90vh;
+    padding-left: 50px 80px 90px 20px;
+    /*height: 90vh;*/
 }
   h1 {
     font-size: 72px;
