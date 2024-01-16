@@ -18,7 +18,7 @@ h1#introtext {
   padding: 25px;
 }
 div#bean {
-  display:flex;
+  display: flex;
   width: 800px;
   height: 250px;
   background-color: silver;
