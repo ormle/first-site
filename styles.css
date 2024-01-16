@@ -19,6 +19,7 @@ h1#introtext {
 }
 div#bean {
   display: flex;
+  flex-direction: column;
   width: 800px;
   height: 250px;
   background-color: silver;
