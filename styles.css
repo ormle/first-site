@@ -6,11 +6,11 @@
        url(fenord-italic.ttf);
   font-weight: normal;
   font-style: normal;
-
 }
 
 body {
     background-color: rgb(32, 27, 118);
+    color: silver;
     font-family: "FenordItalic";
     text-wrap: balance;
     justify-content: left;
