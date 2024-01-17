@@ -122,7 +122,8 @@ img#Romel {
 }
 
 div#EPL {
-  
+  display: flex;
+  flex-direction: row;
 }
 
 /*Footer*/
