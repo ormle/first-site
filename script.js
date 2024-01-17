@@ -1,11 +1,14 @@
-window.onload = function(){
-  /*Accordion buttons */
-const accordion = document.getElementsByClassName('container');
+window.onload = function () {
+  /* Accordion buttons */
+  const labels = document.querySelectorAll('.accordion .label');
 
-for (i=0; i<accordion.length; i++) {
-  accordion[i].addEventListener('click', function () {
-    this.classList.toggle('active')
-  })
-}
-}
+  labels.forEach(function (label) {
+    label.addEventListener('click', function () {
+      // Toggle the 'active' class for the corresponding container
+      const container = this.nextElementSibling; // Assuming the container follows the label
+      container.classList.toggle('active');
+    });
+  });
+};
+
 
