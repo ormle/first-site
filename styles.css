@@ -54,7 +54,10 @@ img#Romel {
   padding: 20px 20px;
 } 
 
-/*Accordion settings*/
+/*Accordion settings
+  Followed https://www.freecodecamp.org/news/build-an-accordion-menu-using-html-css-and-javascript/
+  To make this
+*/
 .accordion {
   width: 1300px;
   margin: 0px 25px;
