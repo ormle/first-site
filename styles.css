@@ -98,6 +98,14 @@ img#Romel {
   transition: 0.5s;
 }
 
+.accordion .container.active .content {
+  height: 150px;
+}
+
+.accordion .container.active .label::before {
+  content: '-';
+  font-size: 30px;
+}
 
 /*Footer*/
 footer {
