@@ -95,7 +95,7 @@ img#Romel {
   transform: translateY(-50%);
 }
 
-.accordion .content {
+.accordion .label.content {
   position: relative;
   height: 0;
   font-size: 20px;
@@ -107,7 +107,7 @@ img#Romel {
   padding: 0px 60px;
 }
 
-.accordion .container.active .content {
+.accordion .label.active .content {
   height: 100%;
   width: auto;
   background-color: silver;
@@ -116,7 +116,7 @@ img#Romel {
   text-align: start;
 }
 
-.accordion .container.active .label::before {
+.accordion .label.active .label::before {
   content: '-';
   font-size: 50px;
 }
