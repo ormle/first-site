@@ -1,5 +1,6 @@
 window.onload = function(){
-  /*Accordion buttons */
+  /*Accordion buttons 
+  --Make it so only clicking on label makes it active?*/
 const accordion = document.getElementsByClassName('container');
 
 for (i=0; i<accordion.length; i++) {

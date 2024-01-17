@@ -76,7 +76,7 @@ img#Romel {
 
 .accordion .label {
   position: relative;
-  padding: 10px 4px;
+  padding: 30px 60px;
   font-size: 25px;
   color: silver;
   cursor: pointer;
@@ -90,34 +90,35 @@ img#Romel {
   color: silver;
   position: absolute;
   top: 50%;
-  right: 15px;
-  font-size: 30px;
+  right: 40px;
+  font-size: 50px;
   transform: translateY(-50%);
 }
 
 .accordion .content {
   position: relative;
-  background-color: silver;
   height: 0;
   font-size: 20px;
-  text-align: justify;
-  width: 1280px;
+  text-align: start;
+  width: auto;
   overflow: hidden;
   transition: 0.1s;
-  color: rgb(32, 27, 118)
+  color: rgb(32, 27, 118);
+  padding: 0px 60px;
 }
 
 .accordion .container.active .content {
   height: 100%;
-  width: 1270px;
+  width: auto;
   background-color: silver;
-  padding: 5px 0px;
+  padding: 30px 60px;
   border-radius: 0px 0px 15px 15px;
+  text-align: start;
 }
 
 .accordion .container.active .label::before {
   content: '-';
-  font-size: 30px;
+  font-size: 50px;
 }
 
 /*Footer*/
