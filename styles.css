@@ -14,7 +14,7 @@ body {
     max-width: 100%;
     overflow-x: hidden;
 }
-h1#introtext {
+h1 {
   font-size: 60px;
   color: rgb(32, 27, 118);
   padding: 15px 0px 5px 25px;
