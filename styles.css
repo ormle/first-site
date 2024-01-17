@@ -31,6 +31,10 @@ div#bean {
   margin: 30px 100px 20px 6%;
 }
 
+div#links {
+  text-decoration: none;
+}
+
 div#projectframe{
   display: flex;
   width: 1000px;
