@@ -37,12 +37,12 @@ div#links {
 
 div#projectframe{
   display: flex;
-  width: 1000px;
+  width: 1350px;
   height: 600px;
   flex-direction: column;
   background-color: silver;
-  border-radius: 500px;
-  margin: 50px 30px;
+  border-radius: 75px;
+  margin: 20px 35px;
 }
 
 div#frame {
