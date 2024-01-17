@@ -1,4 +1,5 @@
-/*Accordion buttons */
+window.onload = function(){
+  /*Accordion buttons */
 const accordion = document.getElementsByClassName('container');
 
 for (i=0; i<accordion.length; i++) {
@@ -6,3 +7,5 @@ for (i=0; i<accordion.length; i++) {
     this.classList.toggle('active')
   })
 }
+}
+
