@@ -53,6 +53,52 @@ div#frame {
 img#Romel {
   padding: 20px 20px;
 } 
+
+/*Accordion settings*/
+.accordion {
+  width: 1300px;
+  margin: 0px 25px;
+  background-color: rgb(32, 27, 118);
+  border-radius: 15px;
+  padding: 20px 20px;
+}
+
+.accordion .container {
+  position: relative;
+  margin: 10px;
+}
+
+.accordion .label {
+  position: relative;
+  padding: 10px 0px;
+  font-size: 25px;
+  color: silver;
+  cursor: pointer;
+}
+/*Positions the plus sign 5px from the right*/
+.accordion .label::before {
+  content: '+';
+  color: silver;
+  position: absolute;
+  top: 50%;
+  right: -5px;
+  font-size: 30px;
+  transform: translateY(-50%);
+}
+
+.accordion .content {
+  position: relative;
+  background-color: silver;
+  border-color: black; /*Check this later*/
+  height: 0;
+  font-size: 20px;
+  text-align: justify;
+  width: 1280px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+
 /*Footer*/
 footer {
   align-content: end;
