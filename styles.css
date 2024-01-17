@@ -31,8 +31,14 @@ div#bean {
   margin: 30px 100px 20px 6%;
 }
 
-div#links{
-  
+div#projectframe{
+  display: flex;
+  width: 1000px;
+  height: 600px;
+  flex-direction: column;
+  background-color: silver;
+  border-radius: 500px;
+  margin: 50px 30px;
 }
 
 div#frame {
