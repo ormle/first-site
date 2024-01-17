@@ -70,23 +70,27 @@ img#Romel {
 .accordion .container {
   position: relative;
   margin: 10px;
+  border-radius: 15px;
+  border: 0.2rem solid;
 }
 
 .accordion .label {
   position: relative;
-  padding: 10px 0px;
+  padding: 10px 4px;
   font-size: 25px;
-  color: rgb(32, 27, 118);
+  color: silver;
   cursor: pointer;
   text-align: start;
+  border-radius: 10px;
+  background-color: rgb(32, 27, 118);
 }
 /*Positions the plus sign 5px from the right*/
 .accordion .label::before {
   content: '+';
-  color: rgb(32, 27, 118);
+  color: silver;
   position: absolute;
   top: 50%;
-  right: -5px;
+  right: 15px;
   font-size: 30px;
   transform: translateY(-50%);
 }
@@ -94,18 +98,21 @@ img#Romel {
 .accordion .content {
   position: relative;
   background-color: silver;
-  border-color: black; /*Check this later*/
   height: 0;
   font-size: 20px;
   text-align: justify;
   width: 1280px;
   overflow: hidden;
-  transition: 0.5s;
+  transition: 0.1s;
   color: rgb(32, 27, 118)
 }
 
 .accordion .container.active .content {
-  height: 150px;
+  height: 100%;
+  width: 1270px;
+  background-color: silver;
+  padding: 5px 0px;
+  border-radius: 0px 0px 15px 15px;
 }
 
 .accordion .container.active .label::before {
