@@ -1,6 +1,6 @@
 window.onload = function(){
   /*Accordion buttons */
-const accordion = document.getElementsByClassName('label');
+const accordion = document.getElementsByClassName('container');
 
 for (i=0; i<accordion.length; i++) {
   accordion[i].addEventListener('click', function () {
