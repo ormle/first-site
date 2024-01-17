@@ -118,7 +118,7 @@ img#Romel {
 
 .accordion .container.active .label::before {
   content: '-';
-  font-size: 50px;
+  font-size: 40px;
 }
 
 /*Footer*/
