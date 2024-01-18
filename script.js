@@ -9,6 +9,32 @@ window.onload = function () {
       container.classList.toggle('active');
     });
   });
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('.sidebar a');
+
+    links.forEach(function (link) {
+      link.addEventListener('click', function (event) {
+        //Prevent default anchor behavior
+        event.preventDefault();
+        //Remove active class from other link
+        links.forEach(function (otherLink) {
+          otherLink.classList.remove('active');
+      });
+
+      //Make clicked one active
+      link.classList.add('active');
+
+      //Scroll to content
+      const targetId = link.getAttribute('href').substring(1);
+      const targetElement = document.getElementById(targetId);
+
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: 'smooth'});
+      }
+    });
+  });
+});
 };
 
 

@@ -8,12 +8,61 @@
   font-style: normal;
 }
 
+/*Sidebar Navigation*/
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  overflow-y: hidden;
+}
+
+/*Sidebar links*/
+.sidebar a {
+  display: block;
+  color: rgb(32, 27, 118);
+  padding: 50px 50px 50px;
+  text-decoration: none;
+  border-radius: 50px;
+  background-color: silver;
+  text-align: end;
+/* width: 100px; */
+  margin: 90px 60px 0px -100px;
+}
+
+/*Active/current section*/
+.sidebar a.active {
+  background-color: gray;
+  color: white;
+  width: 200px;
+  text-align: end;
+  padding: 50px 30px;
+  margin: 90px 0px 0px -65px;
+  width: 200px;
+}
+
+/*When mouse over*/
+.sidebar a:hover:not(.active) {
+  background-color: gray;
+  color: white;
+/* width: 100px; */
+}
+
 body {
     background-color: rgb(32, 27, 118);
     font-family: "FenordItalic";
     max-width: 100%;
     overflow-x: hidden;
 }
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 800px;
+}
+
 h1 {
   font-size: 60px;
   color: rgb(32, 27, 118);
@@ -48,7 +97,7 @@ div#frame {
   height: 370px;
   background-color: silver;
   justify-content: center;
-  margin: 15px 0px 70px 145px;
+  margin: 15px 0px 70px 135px;
 }
 img#Romel {
   padding: 20px 20px;
@@ -59,7 +108,7 @@ img#Romel {
   To make this
 */
 .accordion {
-  width: 1300px;
+  width: 1100px;
   margin: 0px 25px;
   background-color: silver;
   border-radius: 15px;
@@ -114,6 +163,7 @@ img#Romel {
   padding: 30px 60px;
   border-radius: 0px 0px 15px 15px;
   text-align: start;
+  margin: 0px;
 }
 
 .accordion .container.active .label::before {
