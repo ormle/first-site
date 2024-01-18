@@ -26,7 +26,7 @@ window.onload = function () {
       link.classList.add('active');
 
       //Scroll to content
-      const targetId = link.getAttribute('href').substring(1);
+      const targetId = link.getAttribute('href').split('#')[1];
       const targetElement = document.getElementById(targetId);
 
       if (targetElement) {
